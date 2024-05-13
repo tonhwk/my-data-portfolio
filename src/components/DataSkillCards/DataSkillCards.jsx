@@ -18,8 +18,10 @@ function DataSkillCards() {
         </Link>
       </div>
       <div className="info-card">
-        <h2 className="info-card-title">Interactive Visualizations</h2>
-        <p className="info-card-description">Create interactive visualizations using tools like Plotly, Bokeh, or D3.js to engage users and allow them to explore the data interactively.</p>
+      <Link to="/visualizations">
+          <h2 className="info-card-title">Interactive Visualizations</h2>
+          <p className="info-card-description">Interactive visualizations using dashboards like Tableau and tools like Plotly, Bokeh, or D3.js to engage users and allow them to explore the data interactively.</p>
+        </Link>
       </div>
       <div className="info-card">
         <h2 className="info-card-title">Data Cleaning and Preprocessing</h2>
