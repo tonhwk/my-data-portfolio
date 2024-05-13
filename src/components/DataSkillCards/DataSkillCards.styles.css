@@ -1,0 +1,26 @@
+/* DataSkillCards.css */
+.data-skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+  
+  .info-card {
+    width: calc(33.33% - 20px); /* Adjust the width of each card (33.33% for three columns) */
+    margin-bottom: 20px; /* Add some margin between cards */
+    background-color: #f0f0f0; /* Example background color */
+    border-radius: 8px; /* Add rounded corners to the cards */
+    padding: 20px; /* Add padding inside the cards */
+    box-sizing: border-box; /* Include padding and border in the width/height */
+  }
+  
+  .info-card-title {
+    font-size: 18px; /* Example font size for the title */
+    margin-bottom: 10px; /* Add some margin below the title */
+  }
+  
+  .info-card-description {
+    font-size: 14px; /* Example font size for the description */
+    color: #666; /* Example color for the description */
+  }
+  

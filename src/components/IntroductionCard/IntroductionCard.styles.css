@@ -1,0 +1,28 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+.profile-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the image circular */
+  }
+  
+.home-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+.home-description {
+    font-size: 18px;
+    color: #666;
+  }
+  .icon-row {
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons as needed */
+    justify-content: center; /* Center the icons horizontally */
+
+  }
