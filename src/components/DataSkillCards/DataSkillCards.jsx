@@ -25,13 +25,13 @@ function DataSkillCards() {
       </div>
       <div className="info-card">
         <h2 className="info-card-title">Data Cleaning and Preprocessing</h2>
-        <p className="info-card-description">Showcase your expertise in data cleaning and preprocessing techniques, including data imputation, outlier detection, and feature engineering.
-    * Highlight your ability to handle large datasets efficiently and optimize data processing pipelines.</p>
+        <p className="info-card-description">Expertise in data cleaning and preprocessing techniques, including data imputation, outlier detection, and feature engineering.
+    * Ability to handle large datasets efficiently and optimize data processing pipelines.</p>
       </div>
       <div className="info-card">
         <h2 className="info-card-title">Data Integration</h2>
-        <p className="info-card-description">Showcase projects where you've integrated data from multiple sources to gain a holistic understanding of a problem or phenomenon.
-    * Illustrate your ability to work with APIs, web scraping, or data pipelines to collect and combine diverse datasets.</p>
+        <p className="info-card-description">projects where I've integrated data from multiple sources to gain a holistic understanding of a problem or phenomenon.
+    * Ability to work with APIs, web scraping, or data pipelines to collect and combine diverse datasets.</p>
       </div>
       <div className="info-card">
       <Link to="https://github.com/tonhwk/git-cheat-sheet">
