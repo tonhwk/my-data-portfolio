@@ -6,6 +6,7 @@ import Home from "./pages/Home/"
 import AdvancedDataAnalysisPage from "./pages/AdvancedDataAnalysisTechniques/Advanced"
 import RealWorldDataProjectsPage from './pages/RealWorldDataProjects/RealWorldDataProjects';
 import Visualizations from './pages/Visualizations/Visualizations';
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/advanced_data_analysis" element={ <AdvancedDataAnalysisPage />} />
         <Route path="/real_world_data_projects" element={ < RealWorldDataProjectsPage/>} />
         <Route path="/visualizations" element={ < Visualizations/>} />
+        <Route path="/privacy-policy" element={ < PrivacyPolicy/>} />
       </Routes>
     </Router>
 

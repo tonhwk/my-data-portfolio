@@ -1,0 +1,36 @@
+/* Footer.styles.css */
+
+.footer {
+    background-color: #333; /* Example background color for the footer */
+    color: #fff; /* Example text color for the footer */
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+  }
+  
+  .footer-container {
+    max-width: 1200px; /* Example maximum width for the footer content */
+    margin: 0 auto; /* Center the footer content horizontally */
+    padding: 0 20px; /* Add padding to the left and right of the footer content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .footer-text {
+    font-size: 14px; /* Example font size for the footer text */
+  }
+  
+  .footer-links {
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Add some space between footer links */
+  }
+  
+  .footer-link {
+    color: #fff; /* Example color for footer links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 14px; /* Example font size for footer links */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
