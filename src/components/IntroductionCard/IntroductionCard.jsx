@@ -3,7 +3,7 @@ import React from 'react';
 import './IntroductionCard.styles.css'; // Import CSS file
 import profileImage from './profile.jpeg'; // Import your profile image
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faKaggle } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -20,9 +20,13 @@ function IntroductionCard() {
         <a href="https://www.linkedin.com/in/antonio-martinez-7b6842b2/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="lg" color="#0077B5" />
         </a>
-        <a href="https://github.com/tonhwk" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="lg" />
+        <a href="https://www.kaggle.com/tonhwk" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faKaggle} size="lg" color="#20BEFF"/>
         </a>
+        <a href="https://github.com/tonhwk" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} size="lg" color="#181717"/>
+        </a>
+        
       </div>
       
 

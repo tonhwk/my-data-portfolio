@@ -20,9 +20,11 @@
     font-size: 18px;
     color: #666;
   }
-  .icon-row {
+.icon-row {
     display: flex;
     gap: 10px; /* Adjust the gap between icons as needed */
     justify-content: center; /* Center the icons horizontally */
+    color: inherit; /* Make the icons inherit the color from their parent container */
+    text-decoration: none; /* Remove underline from the links */
 
   }
