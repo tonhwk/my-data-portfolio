@@ -18,9 +18,37 @@
     font-size: 18px; /* Example font size for the title */
     margin-bottom: 10px; /* Add some margin below the title */
   }
-  
   .info-card-description {
     font-size: 14px; /* Example font size for the description */
     color: #666; /* Example color for the description */
   }
+
+
+  .info-card-description {
+    font-size: 14px; /* Example font size for the description */
+    color: #666; /* Example color for the description */
+  }
+
+  /* Media queries for responsiveness */
+
+@media screen and (min-width: 768px) {
+  .info-card {
+    width: calc(50% - 20px); /* Adjust the width of each card for medium screens */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info-card {
+    width: calc(33.33% - 20px); /* Adjust the width of each card for large screens */
+  }
+}
+
+/* For small screens like phones */
+@media screen and (max-width: 767px) {
+  .info-card {
+    width: calc(100% - 20px); /* Set width to 100% for small screens */
+    margin: 0 auto; /* Center the card horizontally */
+
+  }
+}
   
