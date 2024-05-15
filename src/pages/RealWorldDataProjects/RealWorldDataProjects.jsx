@@ -10,6 +10,11 @@ function DataProjectsPage() {
         <p>Analyze marketing campaign data to identify customer segments and improve targeting strategies. Dataset taken from Kaggle.</p>
         <a href="https://github.com/tonhwk/data_analysis/tree/main/Marketing%20Campaign" className="project-link">View Analysis</a>
       </div>
+      <div className="project-card">
+        <h3>Cereal Analysis</h3>
+        <p>This dataset contains information about various cereal products, including their name, manufacturer, type (cold or hot), nutritional content, display shelf, weight, number of cups per serving, and a rating.</p>
+        <a href="https://github.com/tonhwk/data_analysis/tree/main/Real%20World%20Data/Cereal" className="project-link">View Analysis</a>
+      </div>
       {/* Add more project cards as needed */}
     </div>
   );
