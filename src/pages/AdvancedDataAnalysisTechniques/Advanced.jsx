@@ -32,6 +32,39 @@ function AdvancedDataAnalysisPage() {
           Decomposition analysis is a time series analysis technique used to break down a time series into its constituent components, typically trend, seasonality, and noise. It helps in understanding the underlying patterns and structures within the time series data. By decomposing the time series, analysts can isolate and analyze each component separately, which provides insights into the underlying factors driving the data's behavior. This technique is useful for forecasting, anomaly detection, and understanding long-term trends in the data.
           </p>
         </li>
+        <li>
+          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/moving_averages.ipynb" target="_blank" rel="noopener noreferrer">
+            Moving Averages
+          </a>
+          <p className="description">
+          Moving averages are a fundamental technique in time series analysis used to smooth out fluctuations in data and identify underlying trends or patterns. This method involves calculating the average value of a subset of data points over a specified window of time, and then shifting the window forward one step at a time to create a series of averages. Moving averages help to reduce noise in the data, making it easier to identify long-term trends, seasonal patterns, and other underlying structures. 
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/exponential_smoothing.ipynb" target="_blank" rel="noopener noreferrer">
+            Exponential Smoothing
+          </a>
+          <p className="description">
+          Exponential smoothing is a powerful technique in time series analysis used to forecast future values based on past observations while assigning exponentially decreasing weights to older data points. Unlike simple moving averages, which assign equal weights to all data points in the window, exponential smoothing places greater emphasis on recent observations, making it more responsive to changes in the underlying trend or pattern. This method helps to capture short-term fluctuations while still considering long-term trends, making it particularly useful for forecasting data with seasonal or trend components.
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/Seasonal_decomposition_of_time_series.ipynb" target="_blank" rel="noopener noreferrer">
+            Seasonal Decomposition
+          </a>
+          <p className="description">
+          Seasonal decomposition is a technique used in time series analysis to separate a time series into its different components: trend, seasonality, and residual (or noise). This method helps to understand the underlying patterns and structures within the data by isolating each component's contribution to the overall series. The trend component represents the long-term direction of the data, showing whether it is increasing, decreasing, or remaining relatively constant over time. 
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/autocorrelation.ipynb" target="_blank" rel="noopener noreferrer">
+            Autocorrelation
+          </a>
+          <p className="description">
+          Autocorrelation, also known as serial correlation, is a statistical method used to measure the degree of similarity between a time series and a lagged version of itself. In simpler terms, it quantifies the relationship between observations in a time series at different time lags. 
+          Autocorrelation is essential in time series analysis because it helps identify patterns and dependencies within the data. 
+          </p>
+        </li>
       </ul>
 
       <h3>Predictive Modeling</h3>
