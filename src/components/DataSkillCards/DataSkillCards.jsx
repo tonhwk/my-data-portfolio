@@ -24,8 +24,10 @@ function DataSkillCards() {
         </Link>
       </div>
       <div className="info-card">
+      <Link to="data-cleaning">
         <h2 className="info-card-title">Data Cleaning and Preprocessing</h2>
         <p className="info-card-description">Expertise in data cleaning and preprocessing techniques, including data imputation, outlier detection, and feature engineering. Ability to handle large datasets efficiently and optimize data processing pipelines.</p>
+        </Link>
       </div>
       <div className="info-card">
         <h2 className="info-card-title">Data Integration</h2>

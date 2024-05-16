@@ -7,6 +7,7 @@ import AdvancedDataAnalysisPage from "./pages/AdvancedDataAnalysisTechniques/Adv
 import RealWorldDataProjectsPage from './pages/RealWorldDataProjects/RealWorldDataProjects';
 import Visualizations from './pages/Visualizations/Visualizations';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
+import DataCleaning from './pages/DataCleaning';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/real_world_data_projects" element={ < RealWorldDataProjectsPage/>} />
         <Route path="/visualizations" element={ < Visualizations/>} />
         <Route path="/privacy-policy" element={ < PrivacyPolicy/>} />
+        <Route path="/data-cleaning" element={ < DataCleaning/>} />
       </Routes>
     </Router>
 
