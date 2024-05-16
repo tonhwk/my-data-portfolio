@@ -1,28 +1,28 @@
 .advanced-data-analysis-page {
-  max-width: 600px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the content horizontally */
-  padding: 20px; /* Add padding for spacing */
+  padding: 20px;
 }
 
 .advanced-data-analysis-page h2 {
-  font-size: 24px;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
+.advanced-data-analysis-page h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
 .advanced-data-analysis-page ul {
-  list-style-type: none; /* Remove default list style */
+  list-style-type: none;
   padding: 0;
 }
 
 .advanced-data-analysis-page li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.advanced-data-analysis-page a {
-  color: #007bff; /* Link color */
-  text-decoration: none; /* Remove underline */
-}
-
-.advanced-data-analysis-page a:hover {
-  text-decoration: underline; /* Add underline on hover */
+.description {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
 }

@@ -30,8 +30,10 @@ function DataSkillCards() {
         </Link>
       </div>
       <div className="info-card">
+      <Link to="data-integration">
         <h2 className="info-card-title">Data Integration</h2>
         <p className="info-card-description">Projects where I've integrated data from multiple sources to gain a holistic understanding of a problem or phenomenon. Ability to work with APIs, web scraping, or data pipelines to collect and combine diverse datasets.</p>
+        </Link>
       </div>
       <div className="info-card">
       <Link to="https://github.com/tonhwk/git-cheat-sheet">

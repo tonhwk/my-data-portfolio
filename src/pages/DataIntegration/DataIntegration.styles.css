@@ -1,0 +1,20 @@
+.data-integration {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.data-integration table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-integration th, .data-integration td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-integration th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
