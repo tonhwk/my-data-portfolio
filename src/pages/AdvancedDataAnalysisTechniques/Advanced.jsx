@@ -81,14 +81,24 @@ function AdvancedDataAnalysisPage() {
 
       <h3>Clustering</h3>
       <ul>
-        <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Clustering/k-means.py" target="_blank" rel="noopener noreferrer">
-            K-means
-          </a>
-          <p className="description">
-            K-means is a popular clustering algorithm that partitions data into K clusters based on feature similarity. It assigns data points to the cluster with the nearest mean, iteratively refining the cluster centers until convergence.
-          </p>
-        </li>
+      <li>
+        <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Clustering/kmeans.ipynb" target="_blank" rel="noopener noreferrer">
+          K-means
+        </a>
+        <p className="description">
+          K-means is a widely-used clustering algorithm that partitions a dataset into K distinct, non-overlapping subsets or clusters. Each data point is assigned to the cluster with the nearest mean, known as the cluster centroid. The algorithm iteratively updates the centroids by minimizing the within-cluster sum of squares (WCSS), ensuring that data points within each cluster are as similar as possible, while those in different clusters are as distinct as possible.
+        </p>
+        
+      </li>
+      <li>
+        <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Clustering/kmeans.ipynb" target="_blank" rel="noopener noreferrer">
+        DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+        </a>
+        <p className="description">
+        DBSCAN is a popular clustering algorithm used in data analysis and machine learning. Unlike traditional clustering algorithms like K-means, DBSCAN does not require specifying the number of clusters in advance, making it suitable for datasets with irregular cluster shapes and varying densities.
+        </p>
+        
+      </li>
       </ul>
 
       <h3>Dimensional Reduction</h3>
