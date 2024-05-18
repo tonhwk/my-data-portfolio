@@ -9,7 +9,7 @@ function AdvancedDataAnalysisPage() {
       <h3>Time Series Analysis</h3>
       <ul>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/ARIMA/arima.py" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/arima.ipynb" target="_blank" rel="noopener noreferrer">
             ARIMA Analysis
           </a>
           <p className="description">
@@ -17,7 +17,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/eda.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/eda.ipynb" target="_blank" rel="noopener noreferrer">
             Exploratory Data Analysis (EDA)
           </a>
           <p className="description">
@@ -25,7 +25,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/decomposition.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/decomposition.ipynb" target="_blank" rel="noopener noreferrer">
             Decomposition
           </a>
           <p className="description">
@@ -33,7 +33,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/moving_averages.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/moving_averages.ipynb" target="_blank" rel="noopener noreferrer">
             Moving Averages
           </a>
           <p className="description">
@@ -41,7 +41,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/exponential_smoothing.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/exponential_smoothing.ipynb" target="_blank" rel="noopener noreferrer">
             Exponential Smoothing
           </a>
           <p className="description">
@@ -49,7 +49,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/Seasonal_decomposition_of_time_series.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/Seasonal_decomposition_of_time_series.ipynb" target="_blank" rel="noopener noreferrer">
             Seasonal Decomposition
           </a>
           <p className="description">
@@ -57,7 +57,7 @@ function AdvancedDataAnalysisPage() {
           </p>
         </li>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Time%20Series/autocorrelation.ipynb" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Time%20Series/autocorrelation.ipynb" target="_blank" rel="noopener noreferrer">
             Autocorrelation
           </a>
           <p className="description">
@@ -70,11 +70,11 @@ function AdvancedDataAnalysisPage() {
       <h3>Predictive Modeling</h3>
       <ul>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/RandomForest/RandomForest.py" target="_blank" rel="noopener noreferrer">
-            Random Forest
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Predictive%20Modeling/linear_regression.ipynb" target="_blank" rel="noopener noreferrer">
+            Linear Regression
           </a>
           <p className="description">
-            Random Forest is an ensemble learning method used for classification and regression. It operates by constructing multiple decision trees during training and outputs the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+          Linear regression is a statistical method used to model the relationship between a dependent variable (target) and one or more independent variables (features). The goal is to establish a linear equation that best predicts the target variable based on the input features.
           </p>
         </li>
       </ul>
@@ -82,7 +82,7 @@ function AdvancedDataAnalysisPage() {
       <h3>Clustering</h3>
       <ul>
       <li>
-        <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Clustering/kmeans.ipynb" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Clustering/kmeans.ipynb" target="_blank" rel="noopener noreferrer">
           K-means
         </a>
         <p className="description">
@@ -91,7 +91,7 @@ function AdvancedDataAnalysisPage() {
         
       </li>
       <li>
-        <a href="https://github.com/tonhwk/data_analysis/blob/main/Examples/Clustering/kmeans.ipynb" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Clustering/dbscan.ipynb" target="_blank" rel="noopener noreferrer">
         DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
         </a>
         <p className="description">
@@ -104,7 +104,7 @@ function AdvancedDataAnalysisPage() {
       <h3>Dimensional Reduction</h3>
       <ul>
         <li>
-          <a href="https://github.com/tonhwk/data_analysis/blob/main/Dimensional%20Reduction/pca.py" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20Data%20Analysis%20Techniques/Dimensional%20Reduction/pca.ipynb" target="_blank" rel="noopener noreferrer">
             Principal Component Analysis (PCA)
           </a>
           <p className="description">
