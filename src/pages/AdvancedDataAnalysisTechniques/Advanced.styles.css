@@ -1,28 +1,19 @@
+/* Advanced.styles.css */
+
 .advanced-data-analysis-page {
-  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Cards should appear below the title */
+  align-items: center; /* Center the content horizontally */
+  padding: 20px; /* Add padding for spacing */
 }
 
 .advanced-data-analysis-page h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Add some space below the title */
 }
 
-.advanced-data-analysis-page h3 {
-  font-size: 1.5em;
-  margin-top: 20px;
-}
-
-.advanced-data-analysis-page ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.advanced-data-analysis-page li {
-  margin-bottom: 15px;
-}
-
-.description {
-  margin-top: 5px;
-  font-size: 0.9em;
-  color: #555;
+.cards {
+  display: flex; /* Start flex architecture for cards */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center cards horizontally */
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import './DataIntegration.styles.css';
+import Card from '../../components/ReusableCard'; // Import the Card component
+
 
 const projects = [
   {
@@ -14,32 +16,20 @@ const projects = [
 
 function DataIntegration() {
   return (
-    <div className="data-integration">
-      <h1>Data Integration Projects</h1>
-      <div className="card-container">
-        {projects.map((project, index) => (
-          <div className="card" key={index}>
-            <img src={project.image} alt={project.title} className="card-image"/>
-            <h2 className="card-title">{project.title}</h2>
-            <div className="card-info">
-              <div className="chips">
-                <p><strong>Tools:</strong></p>
-                {project.tools.map((tool, index) => (
-                  <span key={index} className="chip">{tool}</span>
-                ))}
-              </div>
-              <div className="chips">
-                <p><strong>Project Types:</strong></p>
-                {project.projectTypes.map((type, index) => (
-                  <span key={index} className="chip">{type}</span>
-                ))}
-              </div>
-              <p><strong>Link:</strong> <a href={project.link} target="_blank" rel="noopener noreferrer">{project.link}</a></p>
-            </div>
-            <p className="card-description">{project.description}</p>
-          </div>
-        ))}
-      </div>
+    <div className="advanced-data-analysis-page">
+      <h2>Data Integration</h2>
+
+      {projects.map((project, index) => (
+        <Card
+          key={index}
+          image={project.image} // Pass the image prop
+          title={project.title}
+          tools={project.tools}
+          projectTypes={project.projectTypes}
+          link={project.link}
+          description={project.description}
+        />
+      ))}
     </div>
   );
 }

@@ -1,0 +1,69 @@
+.card {
+  width: calc(33.33% - 20px); /* Adjust the width of each card */
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card-info {
+  margin-bottom: 10px;
+}
+
+.chips {
+  margin-bottom: 10px;
+}
+
+.chip {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 16px;
+  margin-right: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-info a {
+  color: #007bff; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Ensure links are block-level elements */
+  overflow: hidden; /* Prevent links from overflowing */
+  text-overflow: ellipsis; /* Add ellipsis for long links */
+  white-space: nowrap; /* Prevent line breaks */
+  max-width: 100%; /* Ensure links don't exceed card width */
+}
+
+.card-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Adjust the width of each card for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); /* Adjust the width of each card for even smaller screens */
+  }
+}
