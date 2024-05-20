@@ -71,8 +71,8 @@ df['column_name'] = pd.to_numeric(df['column_name'], errors='coerce')
 
       <h2 className="subheading">Projects</h2>
       <ul className="projects-list">
-        <li><a href="https://github.com/tonhwk/my-notebook-repo/blob/main/animal_bites/animal_bites.ipynb" target="_blank" rel="noopener noreferrer">Project 1: Data Cleaning with Pandas</a></li>
-        <li><a href="https://github.com/tonhwk/my-notebook-repo/blob/main/titanic/titanic_data_preprocessing.ipynb" target="_blank" rel="noopener noreferrer">Project 2: Data Preprocessing for Machine Learning</a></li>
+        <li><a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Data%20Cleaning/animal_bites/animal_bites.ipynb" target="_blank" rel="noopener noreferrer">Project 1: Data Cleaning with Pandas</a></li>
+        <li><a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Data%20Cleaning/titanic/titanic_data_preprocessing.ipynb" target="_blank" rel="noopener noreferrer">Project 2: Data Preprocessing for Machine Learning</a></li>
       </ul>
     </div>
   );
