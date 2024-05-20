@@ -1,47 +1,86 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link component from react-router-dom
-import './DataSkillCards.styles.css'; // Import CSS file for styling
+import { Link } from 'react-router-dom';
+import './DataSkillCards.styles.css';
 
 function DataSkillCards() {
   return (
     <div className="data-skill-cards">
-      <div className="info-card">
-        <Link to="/advanced_data_analysis">
-          <h2 className="info-card-title">Advanced Data Analysis Techniques</h2>
-          <p className="info-card-description">Experience with advanced data analysis techniques such as time series analysis, predictive modeling, clustering, and dimensionality reduction.</p>
-        </Link>
-      </div>
-      <div className="info-card">
-        <Link to="/real_world_data_projects">
-          <h2 className="info-card-title">Real-world Data Projects</h2>
-          <p className="info-card-description">Real-world data analysis projects that solve complex business problems or address societal issues. Datasets taken from Kaggle.</p>
-        </Link>
-      </div>
-      <div className="info-card">
-      <Link to="/visualizations">
-          <h2 className="info-card-title">Interactive Visualizations</h2>
-          <p className="info-card-description">Interactive visualizations using dashboards like Tableau and tools like Plotly, Bokeh, or D3.js to engage users and allow them to explore the data interactively.</p>
-        </Link>
-      </div>
-      <div className="info-card">
-      <Link to="data-cleaning">
-        <h2 className="info-card-title">Data Cleaning and Preprocessing</h2>
-        <p className="info-card-description">Expertise in data cleaning and preprocessing techniques, including data imputation, outlier detection, and feature engineering. Ability to handle large datasets efficiently and optimize data processing pipelines.</p>
-        </Link>
-      </div>
-      <div className="info-card">
-      <Link to="data-integration">
-        <h2 className="info-card-title">Data Integration</h2>
-        <p className="info-card-description">Projects where I've integrated data from multiple sources to gain a holistic understanding of a problem or phenomenon. Ability to work with APIs, web scraping, or data pipelines to collect and combine diverse datasets.</p>
-        </Link>
-      </div>
-      <div className="info-card">
-      <Link to="https://github.com/tonhwk/git-cheat-sheet">
-        <h2 className="info-card-title">Version Control and Collaboration</h2>
-        <p className="info-card-description">Proficiency in version control systems like Git and collaboration platforms like GitHub by sharing my code repositories and contributions. Ability to work effectively in team environments and collaborate on data analysis projects.</p>
+      <Link to="/advanced_data_analysis" className="info-card">
+      <img src="/images/data_analytics.avif" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Advanced Data Analysis Techniques</h2>
+        <p>Utilizing complex statistical methods to derive insights from data.</p>
+        <ul className="info-card-description">
+          <li>Time series analysis</li>
+          <li>Predictive modeling</li>
+          <li>Clustering</li>
+          <li>Dimensionality reduction</li>
+        </ul>
       </Link>
-      </div>
-      {/* Add more div elements for other skill cards */}
+      <Link to="/real_world_data_projects" className="info-card">
+      <img src="/images/world_data.jpeg" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Real-world Data Projects</h2>
+        <p>Implementing practical solutions to real-world challenges using data.</p>
+        <ul className="info-card-description">
+          <li>Solving complex business problems</li>
+          <li>Addressing societal issues</li>
+          <li>Datasets from Kaggle</li>
+        </ul>
+      </Link>
+      <Link to="/visualizations" className="info-card">
+      <img src="/images/visualizations.jpg" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Interactive Visualizations</h2>
+        <p>Creating interactive dashboards and visual data representations.</p>
+        <ul className="info-card-description">
+          <li>Creating dashboards with Tableau</li>
+          <li>Using tools like Plotly, Bokeh, or D3.js</li>
+          <li>Engaging users with interactive data exploration</li>
+        </ul>
+      </Link>
+      <Link to="/data-cleaning" className="info-card">
+      <img src="/images/cleansing.png" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Data Cleaning and Preprocessing</h2>
+        <p>Ensuring data quality through rigorous cleaning and preprocessing.</p>
+        <ul className="info-card-description">
+          <li>Data imputation</li>
+          <li>Outlier detection</li>
+          <li>Feature engineering</li>
+          <li>Handling large datasets efficiently</li>
+          <li>Optimizing data processing pipelines</li>
+        </ul>
+      </Link>
+      <Link to="/data-integration" className="info-card">
+      <img src="/images/data_integration.jpeg" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Data Integration</h2>
+        <p>Combining data from various sources for comprehensive analysis.</p>
+        <ul className="info-card-description">
+          <li>Integrating data from multiple sources</li>
+          <li>APIs and web scraping</li>
+          <li>Building data pipelines</li>
+        </ul>
+      </Link>
+      <Link to="https://github.com/tonhwk/git-cheat-sheet" className="info-card">
+      <img src="/images/github.png" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Version Control and Collaboration</h2>
+        <p>Managing and sharing code through version control systems.</p>
+        <ul className="info-card-description">
+          <li>Proficiency in Git</li>
+          <li>Collaboration on GitHub</li>
+          <li>Sharing code repositories</li>
+          <li>Working effectively in teams</li>
+        </ul>
+      </Link>
+      <Link to="/data-engineering" className="info-card">
+      <img src="/images/etl_process.png" alt="Advanced Data Analysis" className="info-card-image" />
+        <h2 className="info-card-title">Data Engineering and ETL Processes</h2>
+        <p>Designing robust ETL processes for efficient data management.</p>
+        <ul className="info-card-description">
+          <li>Designing and implementing ETL processes</li>
+          <li>Database design and optimization</li>
+          <li>Building data pipelines</li>
+          <li>Ensuring data quality and consistency</li>
+          <li>Optimizing data workflows for performance</li>
+        </ul>
+      </Link>
     </div>
   );
 }

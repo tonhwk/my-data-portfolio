@@ -9,6 +9,7 @@ import Visualizations from './pages/Visualizations/Visualizations';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import DataCleaning from './pages/DataCleaning';
 import DataIntegration from './pages/DataIntegration/DataIntegration';
+import DataEngineering from './pages/DataEngineering/DataEngineering';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/privacy-policy" element={ < PrivacyPolicy/>} />
         <Route path="/data-cleaning" element={ < DataCleaning/>} />
         <Route path="/data-integration" element={ < DataIntegration/>} />
+        <Route path="/data-engineering" element={ < DataEngineering/>} />
       </Routes>
     </Router>
 
