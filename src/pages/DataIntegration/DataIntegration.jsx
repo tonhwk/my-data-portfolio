@@ -9,7 +9,7 @@ const projects = [
     title: 'Weather Data Integration',
     tools: ['Python'],
     projectTypes: ['API Integration', 'Data Integration'],
-    link: 'https://github.com/yourusername/weather-data-integration',
+    link: 'https://github.com/tonhwk/data_analysis_potfolio/blob/main/Data%20Integration/weather.ipynb',
     description: 'Integrated weather data from the OpenWeatherMap API with city information from a CSV file to provide real-time weather updates for various cities.'
   }
 ];
