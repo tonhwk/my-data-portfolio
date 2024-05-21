@@ -9,7 +9,7 @@ const projects = [
     tools: ['Python', "SQL"],
     projectTypes: ["Data Engineering"],
     link: 'https://github.com/tonhwk/data_analysis_potfolio/blob/main/Data%20Engineering/etl.py',
-    description: 'This ETL project demonstrates my proficiency in extracting, transforming, and loading data using Python, Pandas, and SQLAlchemy. In this project, I built a data pipeline that extracts weather data for various cities from the OpenWeatherMap API. The process involves reading city information from a CSV file, fetching real-time weather data via API requests, and transforming this data into a structured format. Finally, the cleaned data is loaded into a PostgreSQL database.'
+    description: "This project implements a data pipeline to fetch weather data from the OpenWeatherMap API, transform it, and load it into a PostgreSQL database. The pipeline consists of three main steps: Extract, Transform, and Load (ETL). In the Extract step, city data is extracted from a CSV file. Then, in the Transform step, weather data is fetched for each city using the API, and the fetched data is transformed into a structured DataFrame. Finally, in the Load step, the transformed weather data is loaded into a PostgreSQL database using SQLAlchemy's ORM. The pipeline handles exceptions gracefully, printing error messages for failed API requests and ensuring data integrity by replacing existing data in the database."
   }
 
 ]
@@ -26,7 +26,7 @@ function DataEngineering() {
             tools={project.tools}
             projectTypes={project.projectTypes}
             link={project.link}
-            description={project.description}
+            projectDescription={project.description}
           />
         ))}
       </div>
