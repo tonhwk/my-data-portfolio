@@ -1,7 +1,7 @@
 import React from 'react';
 import './ReusableCard.styles.css';
 
-function Card({ image, title, tools, projectTypes, link, description }) {
+function Card({ image, title, tools, projectTypes, link, projectDescription }) {
   return (
     <div className="card">
         <img src={image} alt={title} className="card-image" />
@@ -21,7 +21,8 @@ function Card({ image, title, tools, projectTypes, link, description }) {
             </div>
             <p><strong>Link:</strong> <a href={link} target="_blank" rel="noopener noreferrer">{link}</a></p>
         </div>
-        <p className="card-description">{description}</p>
+        <p className="project-description"><strong>Project Description:</strong> {projectDescription}</p>
+       
     </div>
   );
 }
