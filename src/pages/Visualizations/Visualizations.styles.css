@@ -1,34 +1,52 @@
 .tableau-visualizations-container {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align items horizontally at the center */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #0072B2;
+  margin-bottom: 20px;
 }
 
 .visualization-list {
   list-style-type: none;
   padding: 0;
-  max-width: 600px; /* Adjust the maximum width as needed */
-
 }
 
 .visualization-list li {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   margin-bottom: 20px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.visualization-list li a {
-  font-size: 18px;
-  color: #007bff; /* Blue color */
+.visualization-list li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.visualization-link {
   text-decoration: none;
+  color: #0072B2;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.visualization-list li p {
-  margin-top: 5px;
-  font-size: 14px;
-  color: #555; /* Dark gray color */
+.visualization-link:hover {
+  text-decoration: underline;
 }
 
 .made-with {
-  color: #555; /* Dark gray color */
-  font-weight: bold;
+  font-style: italic;
+  color: #555;
+  margin: 5px 0;
+}
+
+.description {
+  color: #333;
+  line-height: 1.6;
 }
