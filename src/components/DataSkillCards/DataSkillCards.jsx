@@ -81,6 +81,20 @@ function DataSkillCards() {
           <li>Optimizing data workflows for performance</li>
         </ul>
       </Link>
+      <Link to="/advanced-sql-analysis" className="info-card">
+      <img src="/images/mysql.jpeg" alt="Advanced SQL Analysis" className="info-card-image" />
+      <h2 className="info-card-title">Advanced SQL Analysis</h2>
+      <p>Utilizing SQL for complex data analysis and reporting.</p>
+      <ul className="info-card-description">
+          <li>Performing advanced SQL queries</li>
+          <li>Comprehensive data modeling</li>
+          <li>Joining and aggregating data across multiple tables</li>
+          <li>Writing efficient and optimized SQL code</li>
+          <li>Generating insightful reports from data</li>
+          <li>Handling large datasets with precision</li>
+      </ul>
+</Link>
+
     </div>
   );
 }

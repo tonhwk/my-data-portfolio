@@ -10,7 +10,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 import DataCleaning from './pages/DataCleaning';
 import DataIntegration from './pages/DataIntegration/DataIntegration';
 import DataEngineering from './pages/DataEngineering/DataEngineering';
-
+import AdvancedSQL from './pages/AdvancedSQL';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Route path="/data-cleaning" element={ < DataCleaning/>} />
         <Route path="/data-integration" element={ < DataIntegration/>} />
         <Route path="/data-engineering" element={ < DataEngineering/>} />
+        <Route path="/advanced-sql-analysis" element={ < AdvancedSQL/>} />
       </Routes>
     </Router>
 
