@@ -83,7 +83,7 @@ function DataSkillCards() {
       </Link>
       <Link to="/advanced-sql-analysis" className="info-card">
       <img src="/images/mysql.jpeg" alt="Advanced SQL Analysis" className="info-card-image" />
-      <h2 className="info-card-title">Advanced SQL Analysis</h2>
+      <h2 className="info-card-title">SQL Analysis & Querying</h2>
       <p>Utilizing SQL for complex data analysis and reporting.</p>
       <ul className="info-card-description">
           <li>Performing advanced SQL queries</li>
@@ -94,6 +94,21 @@ function DataSkillCards() {
           <li>Handling large datasets with precision</li>
       </ul>
 </Link>
+<Link to="/nlp-analysis" className="info-card">
+  <img src="/images/nlp.png" alt="Natural Language Processing" className="info-card-image" />
+  <h2 className="info-card-title">Natural Language Processing</h2>
+  <p>Leveraging NLP techniques for text analysis and understanding.</p>
+  <ul className="info-card-description">
+      <li>Text pre-processing and normalization</li>
+      <li>Tokenization and vectorization</li>
+      <li>Sentiment analysis and opinion mining</li>
+      <li>Named entity recognition (NER)</li>
+      <li>Part-of-speech tagging</li>
+      <li>Topic modeling and clustering</li>
+      <li>Building and deploying NLP models</li>
+  </ul>
+</Link>
+
 
     </div>
   );

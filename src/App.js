@@ -11,6 +11,7 @@ import DataCleaning from './pages/DataCleaning';
 import DataIntegration from './pages/DataIntegration/DataIntegration';
 import DataEngineering from './pages/DataEngineering/DataEngineering';
 import AdvancedSQL from './pages/AdvancedSQL';
+import NLP from './pages/Natural LanguageProcessing/NaturalLanguageProcessing';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/data-integration" element={ < DataIntegration/>} />
         <Route path="/data-engineering" element={ < DataEngineering/>} />
         <Route path="/advanced-sql-analysis" element={ < AdvancedSQL/>} />
+        <Route path="/nlp-analysis" element={ < NLP/>} />
       </Routes>
     </Router>
 
