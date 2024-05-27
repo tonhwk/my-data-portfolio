@@ -18,7 +18,16 @@ const projects = [
     "projectTypes": ["Data Analysis"],
     "link": "https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20SQL%20Queries/Advanced%20SQL%20Queries/README.md",
     "projectDescription": "This project demonstrates advanced SQL querying techniques, including subqueries, Common Table Expressions (CTEs), and window functions. These advanced queries enable complex data analysis and provide deeper insights from the dataset. The project builds on a retail sales analysis scenario, enhancing the basic SQL operations with more sophisticated data manipulation and reporting capabilities."
-  }
+  },
+  {
+    "image": "/images/group_by.png",
+    "title": "Data Aggregation and Grouping with SQL",
+    "tools": ["SQL"],
+    "projectTypes": ["Data Analysis"],
+    "link": "https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20SQL%20Queries/Data%20Aggregation/README.md",
+    "projectDescription": "This project showcases skills in SQL for data aggregation and grouping. It includes practical SQL queries demonstrating essential concepts such as GROUP BY, HAVING, and aggregate functions (SUM(), AVG(), MAX(), MIN(), COUNT()). The queries analyze sales data from a retail database, aggregating sales by product category, filtering categories by total sales amount, and computing aggregate statistics such as average sale amount, maximum and minimum sale amounts, and sales count for each product."
+}
+
 ]
 
 function AdvancedSQL() {
