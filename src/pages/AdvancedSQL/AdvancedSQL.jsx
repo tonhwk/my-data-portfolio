@@ -25,7 +25,7 @@ const projects = [
     "tools": ["SQL"],
     "projectTypes": ["Data Analysis"],
     "link": "https://github.com/tonhwk/data_analysis_potfolio/blob/main/Advanced%20SQL%20Queries/Data%20Aggregation/README.md",
-    "projectDescription": "This project showcases skills in SQL for data aggregation and grouping. It includes practical SQL queries demonstrating essential concepts such as GROUP BY, HAVING, and aggregate functions (SUM(), AVG(), MAX(), MIN(), COUNT()). The queries analyze sales data from a retail database, aggregating sales by product category, filtering categories by total sales amount, and computing aggregate statistics such as average sale amount, maximum and minimum sale amounts, and sales count for each product."
+    "projectDescription": "This project includes practical SQL queries demonstrating essential concepts such as GROUP BY, HAVING, and aggregate functions (SUM(), AVG(), MAX(), MIN(), COUNT()). The queries analyze sales data from a retail database, aggregating sales by product category, filtering categories by total sales amount, and computing aggregate statistics such as average sale amount, maximum and minimum sale amounts, and sales count for each product."
 }
 
 ]
