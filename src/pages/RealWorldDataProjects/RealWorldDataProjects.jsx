@@ -9,7 +9,7 @@ function DataProjectsPage() {
         <img src="/images/daikin.jpeg" alt="KPI Analysis" className="project-image" />
         <h3>KPI Analysis</h3>
         <p>This dataset contains purchase order records for various components, detailing information about transactions. Key performance indicators (KPIs) analyzed include cost savings, supplier lead time, order accuracy, supplier performance, and spend under management. The analysis reveals insights into the efficiency and effectiveness of procurement processes, such as average lead times, top components by total spend, and supplier performance ratings.</p>
-        <p className="project-details">Data Source: Simulation of an History Order</p>
+        <p className="project-details">Data Source: Fictional Daikin History Order Data</p>
         <a href="https://github.com/tonhwk/data_analysis_potfolio/blob/main/Real%20World%20Data/Direct%20Purchases%20KPI%20Analysis/kpi_analysis.ipynb" className="project-link">View Analysis</a>
       </div>
       <div className="project-card">
