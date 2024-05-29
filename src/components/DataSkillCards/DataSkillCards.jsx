@@ -115,7 +115,6 @@ function DataSkillCards() {
   <ul className="info-card-description">
       <li>Data Preprocessing and feature engineering with PySpark</li>
       <li>EDA on large datasets using Hive</li>
-      <li>Customer segmentation with K-means clustering</li>
       <li>Real-time data processing with Kafka and Spark Streaming</li>
       <li>Data integration with NiFi</li>
       <li>Large-scale data storage with HDFS and Cassandra</li>
