@@ -1,4 +1,3 @@
-// DataCleaning.js
 import React from 'react';
 import './DataCleaning.styles.css'; // Import the CSS file for styling
 
@@ -54,7 +53,21 @@ df.drop_duplicates(inplace=True)
           </pre>
         </div>
         <div className="example">
-          <h3>Example 3: Converting Data Types</h3>
+          <h3>Example 3: Correcting Errors and Inconsistencies</h3>
+          <pre className="code-snippet">
+{`# Python code example
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data.csv')
+
+# Replace inconsistent values
+df['column_name'].replace({'wrong_value': 'correct_value'}, inplace=True)
+`}
+          </pre>
+        </div>
+        <div className="example">
+          <h3>Example 4: Converting Data Types</h3>
           <pre className="code-snippet">
 {`# Python code example
 import pandas as pd
@@ -64,6 +77,38 @@ df = pd.read_csv('data.csv')
 
 # Convert column to numeric type
 df['column_name'] = pd.to_numeric(df['column_name'], errors='coerce')
+`}
+          </pre>
+        </div>
+        <div className="example">
+          <h3>Example 5: Standardizing Data Formats</h3>
+          <pre className="code-snippet">
+{`# Python code example
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data.csv')
+
+# Standardize date format
+df['date_column'] = pd.to_datetime(df['date_column'], format='%Y-%m-%d')
+`}
+          </pre>
+        </div>
+        <div className="example">
+          <h3>Example 6: Removing Outliers</h3>
+          <pre className="code-snippet">
+{`# Python code example
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv('data.csv')
+
+# Remove outliers using the IQR method
+Q1 = df['column_name'].quantile(0.25)
+Q3 = df['column_name'].quantile(0.75)
+IQR = Q3 - Q1
+
+df = df[~((df['column_name'] < (Q1 - 1.5 * IQR)) | (df['column_name'] > (Q3 + 1.5 * IQR)))]
 `}
           </pre>
         </div>

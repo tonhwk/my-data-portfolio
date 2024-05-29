@@ -34,7 +34,16 @@ const projects = [
     "projectTypes": ["Database Management"],
     "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Data%20Manipulation",
     "projectDescription": "This project includes practical SQL queries demonstrating essential data manipulation techniques such as INSERT, UPDATE, DELETE, and UPSERT (MERGE). The queries manage customer, product, and sales data in a retail database, showcasing how to add new records, modify existing records, remove records, and perform upsert operations to combine insert and update functionalities."
+},
+{
+  "image": "/images/ddl.png",
+  "title": "Essential Data Definition Language (DDL) with SQL",
+  "tools": ["SQL"],
+  "projectTypes": ["Database Management"],
+  "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Data%20Deifnition%20Language",
+  "projectDescription": "This project includes practical SQL queries demonstrating essential Data Definition Language (DDL) techniques. The queries focus on defining and modifying database structures, including creating and altering tables, adding and dropping columns, and implementing constraints to manage database schema."
 }
+
 
 ]
 
