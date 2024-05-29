@@ -8,7 +8,7 @@ const projects = [
       "title": "Customer Segmentation with Spark",
       "tools": ["Python", "PySpark", "Matplotlib"],
       "projectTypes": ["Clustering", "Big Data"],
-      "link": "https://github.com/tonhwk/data_analysis_portfolio/blob/main/BigData/CustomerSegmentation.py",
+      "link": "https://github.com/tonhwk/data_analysis_potfolio/blob/main/Big%20Data%20Analytics/customer_segmentation.ipynb",
       "projectDescription": "This project focuses on customer segmentation using Apache Spark. It includes data loading, preprocessing, feature engineering, and clustering using K-means. The project demonstrates how to handle large datasets efficiently and gain business insights through customer segmentation."
     }
 ]

@@ -111,17 +111,19 @@ function DataSkillCards() {
 <Link to="/big-data-analysis" className="info-card">
   <img src="/images/big_data.jpeg" alt="Big Data Analysis" className="info-card-image" />
   <h2 className="info-card-title">Big Data Analysis</h2>
-  <p>Utilizing Apache Spark for large-scale data analysis and customer segmentation.</p>
+  <p>Utilizing Apache Spark and other tools for large-scale data analysis.</p>
   <ul className="info-card-description">
-      <li>Data preprocessing and feature engineering with PySpark</li>
-      <li>Exploratory Data Analysis (EDA) on large datasets</li>
-      <li>Histogram and distribution visualizations using PySpark and Matplotlib</li>
-      <li>Customer segmentation using K-means clustering</li>
-      <li>Cluster profiling and business insights generation</li>
-      <li>Visualizing clustering results with Matplotlib</li>
-      <li>Handling large-scale data efficiently with Apache Spark</li>
+      <li>Data Preprocessing and feature engineering with PySpark</li>
+      <li>EDA on large datasets using Hive</li>
+      <li>Customer segmentation with K-means clustering</li>
+      <li>Real-time data processing with Kafka and Spark Streaming</li>
+      <li>Data integration with NiFi</li>
+      <li>Large-scale data storage with HDFS and Cassandra</li>
+      <li>SQL querying on big data with Presto</li>
+      <li>Real-time computation with Storm</li>
   </ul>
 </Link>
+
 
 
 
