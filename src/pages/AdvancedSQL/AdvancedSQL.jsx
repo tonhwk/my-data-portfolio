@@ -37,12 +37,21 @@ const projects = [
 },
 {
   "image": "/images/ddl.png",
-  "title": "Essential Data Definition Language (DDL) with SQL",
+  "title": "Essential Data Definition Language (DDL)",
   "tools": ["SQL"],
   "projectTypes": ["Database Management"],
   "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Data%20Deifnition%20Language",
   "projectDescription": "This project includes practical SQL queries demonstrating essential Data Definition Language (DDL) techniques. The queries focus on defining and modifying database structures, including creating and altering tables, adding and dropping columns, and implementing constraints to manage database schema."
+},
+{
+  "image": "/images/indexing.png",
+  "title": "SQL Indexing and Performance Optimization",
+  "tools": ["SQL"],
+  "projectTypes": ["Database Management", "Performance Tuning"],
+  "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Indexes%20and%20Performance%20Optimization",
+  "projectDescription": "This project includes practical SQL queries demonstrating essential techniques for improving database performance through indexing, understanding query execution plans using EXPLAIN, and various performance tuning strategies. Additionally, it includes example queries for generating insightful reports."
 }
+
 
 
 ]
