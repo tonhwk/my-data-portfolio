@@ -108,6 +108,21 @@ function DataSkillCards() {
       <li>Building and deploying NLP models</li>
   </ul>
 </Link>
+<Link to="/big-data-analysis" className="info-card">
+  <img src="/images/big_data.jpeg" alt="Big Data Analysis" className="info-card-image" />
+  <h2 className="info-card-title">Big Data Analysis</h2>
+  <p>Utilizing Apache Spark for large-scale data analysis and customer segmentation.</p>
+  <ul className="info-card-description">
+      <li>Data preprocessing and feature engineering with PySpark</li>
+      <li>Exploratory Data Analysis (EDA) on large datasets</li>
+      <li>Histogram and distribution visualizations using PySpark and Matplotlib</li>
+      <li>Customer segmentation using K-means clustering</li>
+      <li>Cluster profiling and business insights generation</li>
+      <li>Visualizing clustering results with Matplotlib</li>
+      <li>Handling large-scale data efficiently with Apache Spark</li>
+  </ul>
+</Link>
+
 
 
     </div>
