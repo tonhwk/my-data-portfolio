@@ -50,7 +50,16 @@ const projects = [
   "projectTypes": ["Database Management", "Performance Tuning"],
   "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Indexes%20and%20Performance%20Optimization",
   "projectDescription": "This project includes practical SQL queries demonstrating essential techniques for improving database performance through indexing, understanding query execution plans using EXPLAIN, and various performance tuning strategies. Additionally, it includes example queries for generating insightful reports."
+},
+{
+  "image": "/images/concurrency.png",
+  "title": "Transactions and Concurrency Control",
+  "tools": ["SQL"],
+  "projectTypes": ["Database Management", "Concurrency Control"],
+  "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Transactions%20and%20Concurrency%20Control",
+  "projectDescription": "This project includes practical SQL queries demonstrating essential techniques for managing transactions and implementing concurrency control in a database system. It covers transaction management, setting isolation levels, and handling multiple concurrency transactions."
 }
+
 
 
 
