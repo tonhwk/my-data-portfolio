@@ -4,6 +4,8 @@ import './IntroductionCard.styles.css'; // Import CSS file
 import profileImage from './profile.jpeg'; // Import your profile image
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faKaggle } from '@fortawesome/free-brands-svg-icons';
+import LeetCodeIcon from "./leetcode.svg"
+
 
 
 
@@ -28,6 +30,9 @@ function IntroductionCard() {
         </a>
         <a href="https://github.com/tonhwk" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="lg" color="#181717"/>
+        </a>
+        <a href="https://leetcode.com/tonhkw" target="_blank" rel="noopener noreferrer">
+          <img src={LeetCodeIcon} alt="LeetCode" className="leetcode-icon" />
         </a>
         
       </div>

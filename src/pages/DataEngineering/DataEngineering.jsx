@@ -16,7 +16,7 @@ const projects = [
 function DataEngineering() {
   return (
     <div className="data-engineering-page">
-      <h2>Data Engineering</h2>
+      <h2>Data Engineering and ETL Processes</h2>
       <div className="cards">
         {projects.map((project, index) => (
           <Card

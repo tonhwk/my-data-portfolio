@@ -57,7 +57,7 @@ const projects = [
   "tools": ["SQL"],
   "projectTypes": ["Database Management", "Concurrency Control"],
   "link": "https://github.com/tonhwk/data_analysis_potfolio/tree/main/SQL%20Analysis/Transactions%20and%20Concurrency%20Control",
-  "projectDescription": "This project includes practical SQL queries demonstrating essential techniques for managing transactions and implementing concurrency control in a database system. It covers transaction management, setting isolation levels, and handling multiple concurrency transactions."
+  "projectDescription": "This project includes practical SQL queries demonstrating essential techniques for managing transactions and implementing concurrency control in a SQL database. It covers transaction management, setting isolation levels, and handling multiple concurrency transactions."
 }
 
 

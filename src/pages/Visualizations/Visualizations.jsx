@@ -4,7 +4,7 @@ import './Visualizations.styles.css'; // Import CSS file for styling
 function Visualizations() {
   return (
     <div className="tableau-visualizations-container">
-      <h1>Visualizations</h1>
+      <h1>Interactive Visualizations</h1>
       <ul className="visualization-list">
         <li>
           <a
