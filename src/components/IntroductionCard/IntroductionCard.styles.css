@@ -31,6 +31,6 @@
 
   .leetcode-icon {
     width: auto; /* Adjust the size as needed to match the other icons */
-    height: 20px; /* Adjust the size as needed to match the other icons */
+    height: 32px; /* Adjust the size as needed to match the other icons */
     fill: #FFA116; /* LeetCode yellow color */
   }
