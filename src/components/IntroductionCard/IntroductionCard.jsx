@@ -23,13 +23,13 @@ function IntroductionCard() {
         Explore my work and discover the stories hidden within the data! </p>
         <div className="icon-row">
         <a href="https://www.linkedin.com/in/andres-martinez-7b6842b2/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} size="2xl" color="#0077B5" />
+          <FontAwesomeIcon icon={faLinkedin} size="xl" color="#0077B5" />
         </a>
         <a href="https://www.kaggle.com/tonhwk" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faKaggle} size="2xl" color="#20BEFF"/>
+          <FontAwesomeIcon icon={faKaggle} size="xl" color="#20BEFF"/>
         </a>
         <a href="https://github.com/tonhwk" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="2xl" color="#181717"/>
+          <FontAwesomeIcon icon={faGithub} size="xl" color="#181717"/>
         </a>
         <a href="https://leetcode.com/tonhkw" target="_blank" rel="noopener noreferrer">
           <img src={LeetCodeIcon} alt="LeetCode" className="leetcode-icon" />
