@@ -34,6 +34,20 @@ function Visualizations() {
             Pick a metric of the review like Overall Rating, Entertainment, Seat Comfort, etc. to visualize in an interactive map the average review for that selected metric. The interactive dashboard allows you to select between different metrics and periods of time from October 2016 to October 2023.
           </p>
         </li>
+        <li>
+          <a
+            href="https://public.tableau.com/app/profile/antonio4234/viz/LondonBikeRides_17183651556340/LondonBikeRides"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="visualization-link"
+          >
+            London Bike Rides
+          </a>
+          <p className="made-with">Made with Tableau</p>
+          <p className="description">
+          A comprehensive analysis of the London bike dataset, highlighting key insights into the relationship between temperature, wind speed, and bike ride counts over a specified period. It combines a heatmap, moving average trend lines, and total bike ride counts to offer a clear and informative representation of the data.
+          </p>
+        </li>
         {/* Add more dashboards as needed */}
       </ul>
     </div>
